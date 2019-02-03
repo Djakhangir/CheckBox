@@ -1,0 +1,38 @@
+html    {
+    background-color: bisque;
+}
+
+.inbox {
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 rgba(141, 138, 138, 0.438);           /*Gives the shadow to the border of the tag*/
+    max-width: 400px; 
+    margin: 20px auto;                                  /* Gives the border to the inbox tag*/
+} 
+
+.item{
+    display: flex;
+    align-items: center;            
+    border-bottom: 1px solid #F1F1F1;
+    text-align: center;
+}
+
+
+input:checked + p {
+    background: aquamarine;
+    text-decoration: line-through;
+  }
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+
+p {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 1px solid #D1E2FF;
+    transition: background 0.2s;
+    flex: 1;
+    
+}
